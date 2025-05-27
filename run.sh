@@ -1,4 +1,25 @@
-apt update -y && apt upgrade -y && apt install git -y && apt install python -y && apt install python2 && apt install nano && apt install bash 
-apt update > /dev/null 2>&1 && apt --assume-yes install wget > /dev/null 2>&1 && wget https://github.com/MasterDevX/Termux-ADB/raw/master/InstallTools.sh -q && bash InstallTools.sh
-echo 'wait'
-git clone https://github.com/metachar/PhoneSploit
+#!/bin/bash
+
+# ===========================================
+# WARNING: THIS SCRIPT IS DEPRECATED
+# ===========================================
+# This script is no longer maintained and may not work as expected.
+# The original PhoneSploit project is no longer maintained.
+# For security reasons, this script has been disabled.
+# See README.md for more information and alternatives.
+
+cat << 'EOF'
+╔══════════════════════════════════════════════════════════╗
+║                     DEPRECATION NOTICE                    ║
+╠══════════════════════════════════════════════════════════╣
+║ This setup script is no longer maintained.               ║
+║ The original PhoneSploit project has been deprecated.    ║
+║                                                          ║
+║ For security reasons, this script has been disabled.     ║
+║ Please check the README.md for more information and      ║
+║ modern alternatives.                                      ║
+╚══════════════════════════════════════════════════════════╝
+
+EOF
+
+exit 1
